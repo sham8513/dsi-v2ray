@@ -66,7 +66,7 @@ cat << EOF > /usr/local/etc/xray/config.json
       "settings": {
         "clients": [
           {
-            "id": "$UUID",
+            "id": "uuid",
             "flow": "xtls-rprx-direct"
           }
         ],
@@ -105,7 +105,7 @@ cat << EOF > /usr/local/etc/xray/config.json
       "settings": {
         "clients": [
           {
-            "id": "$UUID"
+            "id": "uuid"
           }
         ],
         "decryption": "none"
@@ -123,7 +123,7 @@ cat << EOF > /usr/local/etc/xray/config.json
       "settings": {
         "clients": [
           {
-            "id": "$UUID"
+            "id": "uuid"
           }
         ]
       },
